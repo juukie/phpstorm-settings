@@ -1,0 +1,59 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="Encoding">
+        <file url="PROJECT" charset="UTF-8" />
+      </component>
+      <component name="FileColors">
+        <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+        <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+        <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+        <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+      </component>
+      <component name="JavaScriptSettings">
+        <option name="languageLevel" value="ES6" />
+      </component>
+      <component name="JsFlowSettings">
+        <service-enabled>true</service-enabled>
+        <exe-path />
+        <other-services-enabled>true</other-services-enabled>
+        <auto-save>true</auto-save>
+      </component>
+      <component name="PhpCodeSniffer">
+        <phpcs_settings>
+          <PhpCSConfiguration standards="MySource;PEAR;PHPCS;PSR1;PSR2;Squiz;Zend" tool_path="$USER_HOME$/.composer/vendor/bin/phpcs" />
+        </phpcs_settings>
+      </component>
+      <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
+      <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2 Homebrew" />
+      <component name="ProjectInspectionProfilesVisibleTreeState">
+        <entry key="Project Default">
+          <profile-state>
+            <expanded-state>
+              <State>
+                <id />
+              </State>
+              <State>
+                <id>Data flow issuesJavaScript</id>
+              </State>
+              <State>
+                <id>JavaScript</id>
+              </State>
+            </expanded-state>
+            <selected-state>
+              <State>
+                <id>Blade files</id>
+              </State>
+            </selected-state>
+          </profile-state>
+        </entry>
+      </component>
+      <component name="PropertiesComponent">
+        <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+        <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+        <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+        <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+      </component>
+    </defaultProject>
+  </component>
+</application>

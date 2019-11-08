@@ -1,0 +1,22 @@
+<templateSet group="LESS">
+  <template name="@smup" value="// sm-up&#10;@media @sm-up {&#10;  $END$&#10;}" description="less sm up helper" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
+  <template name="@mdup" value="// md-up&#10;@media @md-up {&#10;  $END$&#10;}" description="less md up helper" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
+  <template name="@lgup" value="// lg-up&#10;@media @lg-up {&#10;  $END$&#10;}" description="less lg up helper" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
+  <template name="@xsup" value="// xs-up&#10;@media @xs-up {&#10;  $END$&#10;}" description="less xs up helper" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
+</templateSet>

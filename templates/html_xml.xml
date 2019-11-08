@@ -1,0 +1,19 @@
+<templateSet group="html/xml">
+  <template name="&lt;!" value="&lt;!-- /.$DESCRIPTION$ --&gt;" description="&lt;!-- /description --&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="block" value="&lt;div class=&quot;block&quot;&gt;&#10;    &lt;div class=&quot;container&quot;&gt;&#10;    &#10;        $END$&#10;&#10;    &lt;/div&gt;&lt;!-- /.container --&gt;&#10;&lt;/div&gt;&lt;!-- /.block --&gt;" description="block + container" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="boxy" value="&lt;div class=&quot;boxy$START$&quot;&gt;&#10;    &lt;div class=&quot;boxy$START$-main&quot;&gt;&#10;        $END$&#10;    &lt;/div&gt;&lt;!-- /.boxy$START$-main --&gt;&#10;    &lt;div class=&quot;boxy$START$-aside&quot;&gt;&#10;        &#10;    &lt;/div&gt;&lt;!-- /.boxy$START$-aside --&gt;&#10;&lt;/div&gt;&lt;!-- /.boxy$START$ --&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

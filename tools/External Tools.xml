@@ -1,0 +1,16 @@
+<toolSet name="External Tools">
+  <tool name="php-cs-fixer-current-class" description="Run php-cs-fixer over current class" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/.composer/vendor/bin/php-cs-fixer" />
+      <option name="PARAMETERS" value="fix &quot;$FileDir$/$FileName$&quot; --verbose --level=psr2" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="php-cs-fixer-src-folder" description="Run php-cs-fixer over files in src folder" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/.composer/vendor/bin/php-cs-fixer" />
+      <option name="PARAMETERS" value="fix &quot;$ProjectFileDir$/httpdocs/src&quot; --verbose --level=psr2" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>

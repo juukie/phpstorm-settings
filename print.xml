@@ -1,0 +1,10 @@
+<application>
+  <component name="PrintSettings">
+    <option name="printScope" value="1" />
+    <option name="COLOR_PRINTING" value="true" />
+    <option name="PRINT_AS_GRAPHICS" value="false" />
+    <option name="FONT_NAME" value="FibonSans-Light" />
+    <option name="FONT_SIZE" value="9" />
+    <option name="DRAW_BORDER" value="false" />
+  </component>
+</application>

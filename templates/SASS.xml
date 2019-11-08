@@ -1,0 +1,86 @@
+<templateSet group="SASS">
+  <template name="mq" value="// xs&#10;@include mq($until: sm) {&#10;}&#10;&#10;// sm-down&#10;@include mq($until: md) {&#10;}&#10;&#10;// sm-up&#10;@include mq(sm) {&#10;}&#10;&#10;// md-up&#10;@include mq(md) {&#10;}&#10;&#10;// lg-up&#10;@include mq(lg) {&#10;}&#10;&#10;// xlg-up&#10;@include mq(xlg) {&#10;}" description="Media Queries sass-mq" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
+  <template name="mqup" value="// $VIEWPORT$ up&#10;@include mq($VIEWPORT$) {&#10;  $END$&#10;}" description="sass-mq up helper" toReformat="true" toShortenFQNames="true">
+    <variable name="VIEWPORT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
+  <template name="retina" value="@include bg-retina('~img/$FILE$', '$EXTENSION$', $WIDTH$px, $HEIGHT$px);" description="Retina background" toReformat="false" toShortenFQNames="true">
+    <variable name="FILE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="EXTENSION" expression="" defaultValue="png" alwaysStopAt="true" />
+    <variable name="WIDTH" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEIGHT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="mquntil" value="// until $VIEWPORT$&#10;@include mq($until: $VIEWPORT$) {&#10;  $END$&#10;}" description="sass-mq until helper" toReformat="true" toShortenFQNames="true">
+    <variable name="VIEWPORT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
+  <template name="mqfromuntil" value="// from $FROM$ until $UNTIL$&#10;@include mq($FROM$, $UNTIL$) {&#10;  $END$&#10;}" description="sass-mq fromuntil helper" toReformat="true" toShortenFQNames="true">
+    <variable name="FROM" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="UNTIL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
+  <template name="upp" value="text-transform: uppercase;" description="text-transform: uppercase" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="mqonly" value="// $FROM$ only&#10;@include mq($FROM$, $UNTIL$) {&#10;  $END$&#10;}" description="sass-mq only helper" toReformat="true" toShortenFQNames="true">
+    <variable name="FROM" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="UNTIL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
+  <template name="bl" value="width: $START$;&#10;height: $HEIGHT$;&#10;display: $DISPLAY$;" description="Display, width and height" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="&quot;100%&quot;" alwaysStopAt="true" />
+    <variable name="HEIGHT" expression="" defaultValue="&quot;100%&quot;" alwaysStopAt="true" />
+    <variable name="DISPLAY" expression="" defaultValue="&quot;block&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="smup" value="// sm up&#10;@include mq(sm) {&#10;  $END$&#10;}" description="sass-mq sm up helper" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
+  <template name="mdup" value="// md up&#10;@include mq(md) {&#10;  $END$&#10;}" description="sass-mq md up helper" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
+  <template name="xsup" value="// xs up&#10;@include mq(xs) {&#10;  $END$&#10;}" description="sass-mq xs up helper" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
+  <template name="lgup" value="// lg up&#10;@include mq(lg) {&#10;  $END$&#10;}" description="sass-mq lg up helper" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
+  <template name="flex" value="flex: 0 0 $WIDTH$;&#10;width: $WIDTH$; // IE fix&#10;max-width: $WIDTH$; // Older FF fix" description="Flex property" toReformat="false" toShortenFQNames="true">
+    <variable name="WIDTH" expression="" defaultValue="auto" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="xlgup" value="// xlg up&#10;@include mq(xlg) {&#10;  $END$&#10;}" description="sass-mq xlg up helper" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,94 @@
+<keymap version="1" name="Juukeys" parent="Mac OS X 10.5+">
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="alt space" />
+  </action>
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
+  <action id="CollapseExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
+  <action id="CompareDirs" />
+  <action id="CompareTwoFiles" />
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="meta minus" />
+  </action>
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="shift meta d" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="meta add" />
+  </action>
+  <action id="EditorResetFontSize">
+    <keyboard-shortcut first-keystroke="meta numpad0" />
+  </action>
+  <action id="ExpandAll">
+    <keyboard-shortcut first-keystroke="meta equals" />
+  </action>
+  <action id="ExpandExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="meta equals" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="meta equals" />
+  </action>
+  <action id="FileChooser.GotoDesktop" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+  </action>
+  <action id="Images.Editor.ZoomIn">
+    <keyboard-shortcut first-keystroke="meta equals" />
+  </action>
+  <action id="Images.Editor.ZoomOut">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
+  <action id="QuickImplementations">
+    <keyboard-shortcut first-keystroke="meta y" />
+  </action>
+  <action id="Refresh" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
+  <action id="Replace" />
+  <action id="Rerun" />
+  <action id="SelectAllOccurrences" />
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="meta d" />
+  </action>
+  <action id="SendEOF" />
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="TypeHierarchy" />
+  <action id="Uml.ShowDiff" />
+  <action id="Vcs.QuickListPopupAction" />
+  <action id="com.jetbrains.php.composer.addDependency.ComposerAddDependencyAction">
+    <keyboard-shortcut first-keystroke="ctrl meta alt c" />
+  </action>
+</keymap>
