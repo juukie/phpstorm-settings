@@ -3,6 +3,10 @@
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="alt space" />
   </action>
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="meta w" />
+  </action>
+  <action id="CloseContent" />
   <action id="CollapseAll">
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
