@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="Dockerfile2" type="AUTO_DETECTED" />
       <mapping pattern="ExtractErrorMessageFromResponseError" type="PLAIN_TEXT" />
       <mapping pattern="LET_OP_QUEUE_RESTARTEN_NA_AANPASSEN" type="PLAIN_TEXT" />
       <mapping pattern="Downloads/Basket" type="PLAIN_TEXT" />
