@@ -3,7 +3,6 @@
     <extensionMap>
       <mapping pattern="recaptcha" type="AUTO_DETECTED" />
       <mapping pattern="Dockerfile2" type="AUTO_DETECTED" />
-      <removed_mapping pattern=".prettierrc" type="JSON" />
       <mapping pattern="ExtractErrorMessageFromResponseError" type="PLAIN_TEXT" />
       <mapping pattern="LET_OP_QUEUE_RESTARTEN_NA_AANPASSEN" type="PLAIN_TEXT" />
       <mapping pattern="Downloads/Basket" type="PLAIN_TEXT" />
