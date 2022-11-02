@@ -9,16 +9,18 @@
       <interpreter id="c4bdddc0-5710-4042-9ce4-00cc97c3f543" name="PHP 7.2 Homebrew" home="/usr/local/Cellar/php@7.2/7.2.22_1/bin/php" debugger_id="php.debugger.XDebug" debugger_extension="/usr/local/opt/php71-xdebug/xdebug.so" />
       <interpreter id="9942e461-6522-4a84-974d-f0be32f9af55" name="PHP 7.3 Homebrew" home="/usr/local/Cellar/php/7.3.10/bin/php" debugger_id="php.debugger.XDebug" debugger_extension="/usr/local/opt/php73-xdebug/xdebug.so" />
       <interpreter id="d06323c8-0e7c-4938-af97-73a575ce9f37" name="PHP 7.4 Homebrew" home="/usr/local/Cellar/php/7.4.5_2/bin/php" debugger_id="php.debugger.XDebug" debugger_extension="/usr/local/opt/php74-xdebug/xdebug.so" />
+      <interpreter id="07e9ba30-feb4-4efc-9895-4471d1473fa5" name="PHP 8.0 Homebrew" home="/usr/local/Cellar/php@8.0/8.0.21/bin/php" debugger_id="php.debugger.XDebug" />
+      <interpreter id="c0a77a58-9294-423d-937e-a5b056624979" name="PHP 8.1 Homebrew" home="/usr/local/Cellar/php/8.1.8/bin/php" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
-      <interpreter name="PHP 7.4 Homebrew">
-        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php/7.4.5_2/bin/php-cgi" php_cli="/usr/local/Cellar/php/7.4.5_2/bin/php" path_separator=":" version="7.4.5">
-          <additional_php_ini>/usr/local/etc/php/7.4/conf.d/ext-opcache.ini, /usr/local/etc/php/7.4/conf.d/php-memory-limits.ini</additional_php_ini>
-          <configuration_file>/usr/local/etc/php/7.4/php.ini</configuration_file>
+      <interpreter name="PHP 8.0 Homebrew">
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php@8.0/8.0.21/bin/php-cgi" php_cli="/usr/local/Cellar/php@8.0/8.0.21/bin/php" path_separator=":" version="8.0.21">
+          <additional_php_ini>/usr/local/etc/php/8.0/conf.d/error_log.ini, /usr/local/etc/php/8.0/conf.d/ext-imagick.ini, /usr/local/etc/php/8.0/conf.d/ext-opcache.ini, /usr/local/etc/php/8.0/conf.d/php-memory-limits.ini</additional_php_ini>
+          <configuration_file>/usr/local/etc/php/8.0/php.ini</configuration_file>
           <configuration_options>
-            <configuration_option name="include_path" value=".:/usr/local/Cellar/php/7.4.5_2/share/php/pear" />
+            <configuration_option name="include_path" value=".:/usr/local/Cellar/php@8.0/8.0.21/share/php@8.0/pear" />
           </configuration_options>
           <debuggers />
           <loaded_extensions>
@@ -48,6 +50,7 @@
             <extension name="gmp" />
             <extension name="hash" />
             <extension name="iconv" />
+            <extension name="imagick" />
             <extension name="intl" />
             <extension name="json" />
             <extension name="ldap" />
@@ -68,6 +71,7 @@
             <extension name="posix" />
             <extension name="pspell" />
             <extension name="readline" />
+            <extension name="redis" />
             <extension name="session" />
             <extension name="shmop" />
             <extension name="soap" />
@@ -82,7 +86,83 @@
             <extension name="tokenizer" />
             <extension name="xml" />
             <extension name="xmlreader" />
-            <extension name="xmlrpc" />
+            <extension name="xmlwriter" />
+            <extension name="xsl" />
+            <extension name="zip" />
+            <extension name="zlib" />
+          </loaded_extensions>
+        </phpinfo>
+      </interpreter>
+      <interpreter name="PHP 8.1 Homebrew">
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php/8.1.8/bin/php-cgi" php_cli="/usr/local/Cellar/php/8.1.8/bin/php" path_separator=":" version="8.1.8">
+          <additional_php_ini>/usr/local/etc/php/8.1/conf.d/error_log.ini, /usr/local/etc/php/8.1/conf.d/ext-imagick.ini, /usr/local/etc/php/8.1/conf.d/ext-opcache.ini, /usr/local/etc/php/8.1/conf.d/php-memory-limits.ini</additional_php_ini>
+          <configuration_file>/usr/local/etc/php/8.1/php.ini</configuration_file>
+          <configuration_options>
+            <configuration_option name="include_path" value=".:/usr/local/Cellar/php/8.1.8/share/php/pear" />
+          </configuration_options>
+          <debuggers />
+          <loaded_extensions>
+            <extension name="Core" />
+            <extension name="FFI" />
+            <extension name="PDO" />
+            <extension name="PDO_ODBC" />
+            <extension name="Phar" />
+            <extension name="Reflection" />
+            <extension name="SPL" />
+            <extension name="SimpleXML" />
+            <extension name="Zend OPcache" />
+            <extension name="bcmath" />
+            <extension name="bz2" />
+            <extension name="calendar" />
+            <extension name="ctype" />
+            <extension name="curl" />
+            <extension name="date" />
+            <extension name="dba" />
+            <extension name="dom" />
+            <extension name="exif" />
+            <extension name="fileinfo" />
+            <extension name="filter" />
+            <extension name="ftp" />
+            <extension name="gd" />
+            <extension name="gettext" />
+            <extension name="gmp" />
+            <extension name="hash" />
+            <extension name="iconv" />
+            <extension name="imagick" />
+            <extension name="intl" />
+            <extension name="json" />
+            <extension name="ldap" />
+            <extension name="libxml" />
+            <extension name="mbstring" />
+            <extension name="mysqli" />
+            <extension name="mysqlnd" />
+            <extension name="odbc" />
+            <extension name="openssl" />
+            <extension name="pcntl" />
+            <extension name="pcre" />
+            <extension name="pdo_dblib" />
+            <extension name="pdo_mysql" />
+            <extension name="pdo_pgsql" />
+            <extension name="pdo_sqlite" />
+            <extension name="pgsql" />
+            <extension name="posix" />
+            <extension name="pspell" />
+            <extension name="readline" />
+            <extension name="redis" />
+            <extension name="session" />
+            <extension name="shmop" />
+            <extension name="soap" />
+            <extension name="sockets" />
+            <extension name="sodium" />
+            <extension name="sqlite3" />
+            <extension name="standard" />
+            <extension name="sysvmsg" />
+            <extension name="sysvsem" />
+            <extension name="sysvshm" />
+            <extension name="tidy" />
+            <extension name="tokenizer" />
+            <extension name="xml" />
+            <extension name="xmlreader" />
             <extension name="xmlwriter" />
             <extension name="xsl" />
             <extension name="zip" />
